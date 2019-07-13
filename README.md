@@ -2,7 +2,11 @@
 Morseduino is a simple Arduino based Morse code transmitter/receiver. It communicates via light and sound. It was created to be a fun and exploratory project of Morse code.
 
 ## Morse code
-**#TODO:** write brief explanation of morse code and history
+Morse code is a character encoding scheme used in telecommunication that encodes text characters as standardized sequences of two different signal durations called dots and dashes or dits and dahs. Morse code is named for Samuel F. B. Morse, an inventor of the telegraph. (source: [Wikipedia](https://en.wikipedia.org/wiki/Morse_code)).
+
+International Morse Code table and rules:
+
+![International Morse Code](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/International_Morse_Code.svg/315px-International_Morse_Code.svg.png "International Morse Code")
 
 ## Mode of operation
 The transmitter receives an ASCII message from serial port, encodes it to Morse code symbols (dots and dashes), and transmits the symbols via light (using an LED) and via sound (using a buzzer).
